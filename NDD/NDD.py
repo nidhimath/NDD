@@ -9,7 +9,7 @@ NDD: A neural network for predicting DDIs.
 import numpy as np
 import os
 import matplotlib.pyplot as plt
-from sklearn import svm, grid_search
+#from sklearn import svm, grid_search
 from sklearn.preprocessing import LabelEncoder
 from sklearn.svm import LinearSVC
 from sklearn.ensemble import RandomForestClassifier
@@ -23,9 +23,9 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import precision_score
 from sklearn.metrics import recall_score
 from keras.layers.merge import concatenate
-from sklearn.cross_validation import train_test_split
+#from sklearn.cross_validation import train_test_split
 from sklearn.calibration import CalibratedClassifierCV
-from sklearn.cross_validation import StratifiedKFold
+#from sklearn.cross_validation import StratifiedKFold
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import roc_curve, auc
 from sklearn.metrics import precision_recall_curve
